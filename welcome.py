@@ -1,9 +1,9 @@
 #!/usr/bin/python
 
-from kitchen import bacon, egg, lobster_thermidor, sausage
+from kitchen import bacon, egg, lobster_thermidor, tomato, sausage
 import random
 
-INGREDIENTS = [egg.Egg(), bacon.Bacon(), LobsterThermidor, sausage.Sausage()]
+INGREDIENTS = [egg.Egg(), bacon.Bacon(), LobsterThermidor, tomato, sausage.Sausage()]
 
 def prepare_ingredient(ingredient):
     has_spam = random.choice([True,  False])
